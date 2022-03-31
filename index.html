@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #main{
+            background-image: linear-gradient(to top right, rgb(66, 66, 184) 60%, orange);
+        }
+        #title{
+            display: block;
+            margin-left: auto;
+            margin-right: auto; 
+            text-align: center;
+            width: fit-content;
+        }
+        #pre-header{
+            font-size: 3vw;
+            color: white;
+        }
+        #main-header{
+            font-size: 8vw;
+        }
+        #image{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 1920px;
+            width: 75%;
+            height: auto;
+        }
+        #img-caption{
+            color: white;
+            text-align: center;
+        }
+        #info-header{
+            color: black;
+            text-align: center;
+            font-size: 5vw;
+        }
+        #tribute-info{
+            color: white;
+            text-align: center;
+            margin-left: 4vw;
+            margin-right: 4vw;
+        }
+        #para-2{
+            color: white;
+            text-align: center;
+            margin-left: 4vw;
+            margin-right: 4vw;
+        }
+        #tribute-link{
+            color: black;
+        }
+        #tribute-link:hover{
+            color: orange;
+        }
+        @media (max-width: 600px){
+            #pre-header{
+                font-size: 18px;
+            }
+            #main-header{
+                font-size: 48px;
+            }
+            #info-header{
+                font-size: 30px;
+            }
+            #image{
+                width: 100%;
+            }
+        }
+    </style>
+
+</head>
+<body id="main">
+    <div>
+        <h1 id="title"><span id="pre-header">The Blue Bomber</span><br><span id="main-header">MEGA MAN</span></h1>
+        <figure id="img-div">
+            <img id="image" src="megaMan1920x1304.png" alt="Mega Man and Dr. Light">
+            <figcaption id="img-caption">Mega Man and Dr. Light</figcaption>
+        </figure>
+        <hr>
+        <h2 id="info-header">Long Live The Legend</h2>
+        <br>
+        <p id="tribute-info">Mega Man was built by Dr. Light to be his lab assistant. At this point his name was Rock or Rock Man and he also has a sister robot named Roll. After Dr. Wily goes mad and steals Dr. Lights other robots to repurpose them for fighting and taking over the world Rock Man is modified by Dr. Light to be a fighting machine and is renamed Mega Man. He has a copy chip that allows him to copy the abilities of his fallen foes. It was later renamed to the variable weapon system. </p>
+        <br>
+        <p id="para-2">Get more info on Mega Man at <a id="tribute-link" href="https://megaman.fandom.com/wiki/Mega_Man_(character)" target="_blank">Mega Man Knowledge Base</a></p>
+        <br>
+    </div>
+</body>
+</html>
